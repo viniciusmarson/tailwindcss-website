@@ -9,6 +9,26 @@ https://www.figma.com/community/file/946390947835621236
 
 Initial code came from: https://github.com/viniciusmarson/bootstrap-website
 
+## Setup 
+
+### First:
+Make sure that you have the [Node JS](https://nodejs.org/en) installed in your machine.
+
+### Then
+
+Run the following command to install the deps:
+```console
+npm install
+```
+
+## Running
+
+Keep the following command running in your terminal to be able to always copile the changes in input.css
+
+```console
+npx tailwindcss -i ./input.css -o ./output.css --watch
+```
+
 ## Design
 
 - Captain Design
