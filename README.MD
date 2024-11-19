@@ -6,20 +6,25 @@ single-page website that has responsive design with layout for mobile and laptop
 Figma File:
 https://www.figma.com/community/file/946390947835621236
 
-
 Initial code came from: https://github.com/viniciusmarson/bootstrap-website
 
-## Setup 
+## Setup
 
 ### First:
+
 Make sure that you have the [Node JS](https://nodejs.org/en) installed in your machine.
 
 ### Then
 
 Run the following command to install the deps:
+
 ```console
 npm install
 ```
+
+## Finally
+
+This part it optional, but I hight recommend you to use the [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ## Running
 
@@ -36,5 +41,5 @@ npx tailwindcss -i ./input.css -o ./output.css --watch
 ## Developers
 
 - Vinicius Marson
-- Igor 
+- Igor
 - Hamdi
