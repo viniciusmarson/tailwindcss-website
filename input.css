@@ -41,7 +41,7 @@
   }
 
   .button {
-    @apply  items-center;
+    @apply flex flex-row items-center justify-center;
     padding: 10px 36px;
     gap: 10px;
     border-radius: 37px;
@@ -361,8 +361,6 @@
 
   .price-card {
     @apply flex flex-col items-center py-[50px] px-[40px] min-h-[665px] max-w-[327px] m-0 gap-7;
-
-
   }
 
   .subtitle {
@@ -370,20 +368,16 @@
     color: #737373;
   }
 
-  .price-card h2,
-  h3 {
+  .price-card h2, h3 {
     @apply font-bold;
-
   }
 
   .price-desc {
     @apply flex flex-col gap-2.5 items-start;
-    
   }
 
   .membership {
     @apply flex;
-
     color: theme("colors.blue");
   }
 
@@ -393,18 +387,14 @@
 
   .monthly {
     @apply ml-[15px] mt-[12px] leading-[5px];
-
-
   }
 
   .prices {
     @apply flex flex-col gap-16 md:flex-row md:gap-8 md:min-h-[689px] md:min-w-[327px];
-
   }
 
   .price {
-    @apply flex flex-row;
-
+    @apply flex flex-row gap-2;
   }
 
   .new-circle {
@@ -435,8 +425,6 @@
       @apply flex-col-reverse;
     }
   }
-
-
 
   /* Contact */
 
