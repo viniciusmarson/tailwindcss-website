@@ -40,6 +40,6 @@ npx tailwindcss -i ./input.css -o ./output.css --watch
 
 ## Developers
 
-- Vinicius Marson
-- Igor
-- Hamdi
+- Vinicius Marson (Header, Home, Differences)
+- Igor (Ratings, Projects, Pricing)
+- Hamdi (Contanct, Agency CTA, Footer)
